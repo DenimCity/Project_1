@@ -3,11 +3,23 @@
 The game of 'Jeopardy'
 This is a game replicating the real live game of Jeopardy.
 
--what to fill in-
+-
 
-A Project description
+
+Project description
+-
+This is a game replicating the real live game of Jeopardy. Jeopardy is an American television game show created by Merv Griffin. The show features a quiz competition in which contestants are presented with general knowledge clues in the form of answers, and must phrase their responses in the form of questions. 
+
 A Link to the Deployed App
-A Link to the Trello Board
-A Link to any Wirefames or Mockups (or inline photos / screenshots will work too!)
-A list of technologies, libraries, and/or frameworks used in the project, such as Twitter Bootstrap, jQuery, or Animate.css
+-
+
+Trello Board
+-
+
+Wirefames or Mockups 
+-
+(or inline photos / screenshots will work too!)
+
+
+list of technologies, libraries, and/or frameworks used in the project, such as Twitter Bootstrap, jQuery, or Animate.css
 What you would like to add in version 2
