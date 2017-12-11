@@ -12,9 +12,11 @@ This is a game replicating the real live game of Jeopardy. Jeopardy is an Americ
 
 A Link to the Deployed App
 -
+link: https://www.bitballoon.com/sites/vigilant-mccarthy-4a61b8
 
 Trello Board
 -
+link: https://trello.com/b/8FRno5Kc/untitled-board
 
 Wirefames or Mockups 
 -
