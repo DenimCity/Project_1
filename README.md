@@ -1,7 +1,10 @@
 # Project-1
 
 The game of 'Jeopardy'
+
 created by Jean Altidor
+
+GWI 13'
 contact: altidorjean@yahoo.com
 
 -
