@@ -1,7 +1,8 @@
 # Project-1
 
 The game of 'Jeopardy'
-This is a game replicating the real live game of Jeopardy.
+created by Jean Altidor
+contact: altidorjean@yahoo.com
 
 -
 
@@ -13,7 +14,7 @@ This is a game replicating the real live game of Jeopardy. Jeopardy is an Americ
 A Link to the Deployed App
 -
 link: https://vigilant-mccarthy-4a61b8.bitballoon.com/
-www.twitter.com/jeanlikedenim
+
 
 Trello Board
 -
@@ -24,5 +25,7 @@ Wirefames or Mockups
 (or inline photos / screenshots will work too!)
 
 
-list of technologies, libraries, and/or frameworks used in the project, such as Twitter Bootstrap, jQuery, or Animate.css
+list of technologies, libraries, and/or frameworks used in the project,
+-
+ such as Twitter Bootstrap, jQuery, or Animate.css
 What you would like to add in version 2
