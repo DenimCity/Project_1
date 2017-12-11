@@ -25,8 +25,8 @@ link: https://trello.com/b/8FRno5Kc/untitled-board
 
 Wirefames or Mockups 
 -
-(or inline photos / screenshots will work too!)
 
+Link: https://www.figma.com/file/f6hFhrx9jofwWUdSkiJJfhSD/Untitled
 
 list of technologies, libraries, and/or frameworks used in the project,
 -
