@@ -1,3 +1,49 @@
-body {
-  background-image: url(https://goo.gl/images/8YK1QA);
+
+
+
+header {
+  display: flex;
+  justify-content: center;
 }
+h1 {
+  justify-content: center;
+    display: flex;
+    color: white;
+    background-color: blue;
+    font-family: Lato,helvetica;
+
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+}
+aside {
+display: grid;
+}
+li {
+  list-style-type: none;
+}
+
+footer{
+  display: flex;
+}
+h6{
+  color:gold;
+  justify-content: right;
+}
+
+.block {
+  display: flex;
+  
+}
+.header {
+
+  width: 70%;
+  height: 300px;
+
+}
+
+
+
+
