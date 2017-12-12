@@ -11,9 +11,18 @@ h1 {
     color: white;
     background-color: blue;
     font-family: Lato,helvetica;
-
 }
 
+#gameBoard  {
+  background-color: black;
+  color: white;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+}
 .h1 {
   display: flex;
   justify-content: center;
