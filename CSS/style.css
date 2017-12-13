@@ -4,7 +4,7 @@ body {
   display: grid;
   grid-template-columns: repeat(20, 5%);
   grid-template-rows: repeat(20, 5%);
-  background-color: lightgrey;
+  background-color: #292F36;
 
 }
 
@@ -17,15 +17,14 @@ body {
 }
 
 .grid>div {
-  background: #C52641;
+  background: #4ECDC4;
   padding: 1em;
-  box-shadow: 5px 10px black;
+  box-shadow: 5px 10px #FF6B6B;
 }
 
 .grid>div:nth-child(odd) {
-  background: #C52641;
-  box-shadow: 5px 10px black;
-
+  background: #4ECDC4;
+  box-shadow: 5px 10px #FF6B6B;
 }
 
 h3 {
@@ -35,71 +34,72 @@ h3 {
   font-size: 35px;
 }
 
-aside {
-  grid-column: 2/5;
-  grid-row: 2/9;
-  background-color: #BCC4C9;
-}
-
-aside>div {
+aside>nav {
   grid-column-gap: 1em;
 }
 
 main {
 
   grid-column: 6/20;
-  grid-row: 6/21;
-  background-color: #BCC4C9;
+  grid-row: 7/21;
 }
 
 h2 {
   text-align: center;
   font-family: arial;
   font-weight: 900;
-  color: gold;
-  text-decoration: underline;
+  color: #FFE66D;
   font-weight: bold;
+  background-color: #FF6B6B;
 }
 
 h1 {
   text-align: center;
+  color:#FF6B6B;
+  background-color: #292F36;
+  padding-top: 5px;
+  
 }
 
 header {
   display: grid;
-  grid-column: 6/20;
-  grid-row: 1/3;
+  grid-column: 10/16;
+  grid-row: 2/4;
+  background-color:#FFE66D;
+  border-radius: 25px;
+  
 }
 
 head {
   grid-column: 9/19;
   grid-row: 4/6;
+  border-radius: 25px;
 }
 p {
 text-align: center;
 font-size: x-large;
-color: gold;
+color: #FFE66D;
 font-weight: bolder;
   }
 
 nav {
   display: flex;
-  grid-column: 9/19;
-  grid-row: 3/5;
+  grid-column: 9/15;
+  grid-row: 5/7;
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
-  background: black;
-  box-shadow: darkblue;
-  color: white;
+  background: #FFE66D; 
+  border-radius: 12px;
+  color: #292F36;
   padding: 10px;
   border-top-width: 0px;
-  width: 432px;
+  width: 475px;
 }
 
-li {
+/* li {
   flex-direction: right;
   list-style: none;
-}
+} */
 
 .sides>div {
   display: grid;
@@ -107,12 +107,36 @@ li {
   grid-gap: 1em;
   grid-auto-rows: minmax(100px, auto);
   box-shadow: 5px 10px;
-  background-color: #BCC4C9;
+ 
   color: rgb(7, 7, 7);
 }
 
-.side {
 
-    text-align: center;
+.score {
+ background-color: #FF6B6B;
+  padding:1rem;
+  width: 45px;
+  height: 15px;
+  grid-column: 18/19;
+  grid-row: 4/8;
+  border-radius:20px;
+  color:#4ECDC4;
+  text-align: center;
+}
 
+aside {
+  display: grid;
+  grid-column: 1/5;
+  grid-row: 2/19;
+  grid-template-rows: 1px;
+  grid-gap: 1em;
+  background-color: green;
+}
+aside > div {
+  background-color: yellow;
+  border-radius:49px;
+}  
+
+li {
+  margin: 3px;
 }

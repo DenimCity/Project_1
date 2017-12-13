@@ -7,14 +7,17 @@ $(document).ready(function () {
   let newScore = 0
 
   $("div.button1").click(function () {
-    firstAnswer = prompt("For $100: What is 100 divide 2?")
+     let firstAnswer = prompt("For $100: What is 100 divide 2?")
     if (firstAnswer === '50') {
       alert("Good Job")
       newScore += 100
+      console.log(newScore)
     } else {
       alert("Sorry, Next Question")
       newScore -= 100
+      
     }
+    $(".score").html(newScore);
   });
 
 
@@ -68,26 +71,7 @@ $(document).ready(function () {
       alert("Sorry, Try Again")
       newScore -= 200
     }
-  });
-  $("div.button3").click(function () {
-    thirdAnswer = prompt("For $200: How many solutions are there to the equation x2 - 7 = 0?")
-    if (thirdAnswer === '1') {
-      alert("Good Job");
-      newsScore += 200
-    } else {
-      alert("Sorry, Try Again")
-      newScore -= 200
-    }
-  });
-  $("div.button3").click(function () {
-    thirdAnswer = prompt("For $200: How many solutions are there to the equation x2 - 7 = 0?")
-    if (thirdAnswer === '1') {
-      alert("Good Job");
-      newsScore += 200
-    } else {
-      alert("Sorry, Try Again")
-      newScore -= 200
-    }
+ 
   });
 
  
