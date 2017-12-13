@@ -3,7 +3,7 @@ $(document).ready(function(){
  
  
  alert("Welcome to GA Jeopardy")
- const totalAnswers = [];
+
  /// first button prompts user amd records answer
  $( "button.firstQuestion" ).click(function() {
   let firstAnswer = prompt( "For $100: What is 100 divide 2?" );
@@ -13,10 +13,8 @@ console.log(firstAnswer);
      alert("Good Job"); 
       /// need to push the return value into an array
       let entry1 = 50;
-      
       totalAnswers.push(entry1);
       console.log(totalAnswers);
-      
   } else {
     alert("Sorry, Try Again")
     
@@ -34,7 +32,6 @@ console.log(secondAnswer);
       let entry2 = 500;
       totalAnswers.push(entry2);
       console.log(totalAnswers);
-    
   } else {
     alert("Sorry, Lets Try Again")
   }
@@ -50,15 +47,17 @@ console.log(thirdAnswer);
   if (thirdAnswer === '1') {
       alert("Good Job");
       let entry3 = 1000;
-      
       totalAnswers.push(entry3);
       console.log(totalAnswers);
-    
   } else {
     alert("Sorry, Try Again")
   }
 });
 
+const totalAnswers = [];
+totalAnswers.forEach(()=>{
+
+})
 
 
 
