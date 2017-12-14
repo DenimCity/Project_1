@@ -73,14 +73,14 @@ $(document).ready(function () {
 
   $("div.button6").click(function () {
     let answer = prompt("For $500: How many solutions are there to the equation x2 - 7 = 0?")
-    if (thirdAnswer === '1') {
+    if (answer === '1') {
       alert("Good Job");
       newScore += 500
     } else {
       alert("Sorry, Next Question")
       newScore -= 500
     }
-    $(".score").html(newScore);
+    $(".score").html(new Score);
     $("div.button6").unbind("click");
   });
 
@@ -113,7 +113,7 @@ $(document).ready(function () {
   $('.button').click(function () {
     location.reload();
   });
-
+//alerting winner funciton
   const winner = () => {
     if (newSocre ==200){
       alert("WINNER CHICKEN DINNER")
