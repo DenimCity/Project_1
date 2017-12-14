@@ -161,3 +161,9 @@ p:hover {
   cursor: pointer;
   border-radius: 10px;
 }
+
+replace {
+  background: rgb(9, 40, 37);
+  padding: 1em;
+  box-shadow: 5px 10px #FF6B6B;
+}
