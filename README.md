@@ -20,7 +20,7 @@ View from Desktop
 link: https://www.bitballoon.com/sites/denimcityproject1
 
 
-Trello Board
+User Stories: Trello Board 
 -
 link: https://trello.com/b/8FRno5Kc/untitled-board
 
