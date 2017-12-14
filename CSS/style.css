@@ -5,7 +5,6 @@ body {
   grid-template-columns: repeat(20, 5%);
   grid-template-rows: repeat(20, 5%);
   background-color: #292F36;
-
 }
 
 .grid {
@@ -22,10 +21,6 @@ body {
   box-shadow: 5px 10px #FF6B6B;
 }
 
-.grid>div:nth-child(odd) {
-  background: #4ECDC4;
-  box-shadow: 5px 10px #FF6B6B;
-}
 
 h3 {
   font-family: sans-serif;
@@ -58,7 +53,6 @@ h1 {
   color:#FF6B6B;
   background-color: #292F36;
   padding-top: 5px;
-  
 }
 
 header {
@@ -67,7 +61,6 @@ header {
   grid-row: 2/4;
   background-color:#FFE66D;
   border-radius: 25px;
-  
 }
 
 head {
@@ -81,7 +74,6 @@ font-size: x-large;
 color: #FFE66D;
 font-weight: bolder;
   }
-
 nav {
   display: flex;
   grid-column: 10/16;
@@ -93,10 +85,7 @@ nav {
   color: #292F36;
   padding: 10px;
   border-top-width: 0px;
-  
 }
-
-
 
 .sides>div {
   display: grid;
@@ -104,10 +93,8 @@ nav {
   grid-gap: 1em;
   grid-auto-rows: minmax(100px, auto);
   box-shadow: 5px 10px;
- 
   color: rgb(7, 7, 7);
 }
-
 
 .score {
  background-color: #FF6B6B;
@@ -120,11 +107,10 @@ nav {
   color:#4ECDC4;
   text-align: center;
 }
-
 aside {
- display:grid;
+  display:grid;
   grid-column: 1/5;
-  grid-row: 2/19;
+  grid-row: 2/18;
   grid-template-rows: 1px;
   grid-gap: 1em;
   background-color: #4ECDC4;
@@ -157,7 +143,9 @@ leftSide {
 } 
 
 a:hover {
-color:#292F36;
+color:#4ECDC4;
+background: #FF6B6B;
+padding:1rem;
 }
 
 a {
@@ -165,6 +153,11 @@ a {
   color:#FF6B6B;
   font-size: 17px;
   font-weight: bold;
-  
-  
+}
+
+p:hover {
+  background: #292F36;
+  padding: 1em;
+  cursor: pointer;
+  border-radius: 10px;
 }
