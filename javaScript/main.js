@@ -1,7 +1,7 @@
 $(document).ready(function () {
   console.log("The DOM is ready")
 
-
+//learn how to edit prompt in csss
   alert("Welcome to GA Jeopardy")
 
   let newScore = 0
@@ -111,6 +111,10 @@ $(document).ready(function () {
     $(".score").html(newScore);
     $("div.button8").unbind("click");
   })
+
+  $('.button').click(function() {
+    location.reload();
+});
 
   const winner = () => {
     if (newScore == 2200) 

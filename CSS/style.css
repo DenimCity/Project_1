@@ -155,23 +155,21 @@ a {
   font-weight: bold;
 }
 
-p:hover {
+.button p:hover {
   background: #292F36;
   padding: 1em;
   cursor: pointer;
   border-radius: 10px;
 }
 
-.replace {
-  background: rgb(9, 40, 37);
-  padding: 1em;
-  box-shadow: 5px 10px #FF6B6B;
-}
-
 .button {
   grid-column: 7;
   grid-row: 4;
-  background-color: red;
-  border-radius: 12px;
+  background-color: #FF6B6B;
+  padding: 1rem;
+  width: 84px;
+  height: 20px;
+  border-radius: 20px;
+  color: #4ECDC4;
   text-align: center;
 }
