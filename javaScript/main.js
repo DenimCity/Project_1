@@ -4,11 +4,12 @@ $(document).ready(function () {
 //score keeper
   let newScore = 0
   
-  const winner =()=> {
-    if (newScore >= 2000){
-      alert("Youve Won A Free Meal")
+
+ //game winnder alert 
+  const complete =()=> {
+    if (end >= 1){
+      alert("Youve completed the board")
     }
-    winner("newScore");
   }
   ///Button triggers
   $("div.button1").click(function () {
@@ -22,6 +23,7 @@ $(document).ready(function () {
     }
     $(".points").html(newScore);
     $("div.button1").unbind("click")
+    end()
   });
 
   $("div.button2").click(function () {
@@ -35,6 +37,7 @@ $(document).ready(function () {
     }
     $(".score").html(newScore);
     $("div.button2").unbind("click");
+    
   });
 
   $("div.button3").click(function () {
