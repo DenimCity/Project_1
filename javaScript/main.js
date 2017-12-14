@@ -16,7 +16,7 @@ $(document).ready(function () {
       newScore -= 100
     }
     $(".score").html(newScore);
-    $("div.button1").unbind("click");
+    $("div.button1").unbind("click")
   });
 
   $("div.button2").click(function () {
@@ -115,11 +115,13 @@ $(document).ready(function () {
   });
 
   const winner = () => {
-    if (newScore == 2200) { }
-
-    alert("congrats")
+    if (newSocre ==200){
+      alert("WINNER CHICKEN DINNER")
+    } else {
+      alert('You got this, Let try again')
+    }
   }
-
+    
 
 })
 
