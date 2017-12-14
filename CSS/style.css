@@ -162,8 +162,16 @@ p:hover {
   border-radius: 10px;
 }
 
-replace {
+.replace {
   background: rgb(9, 40, 37);
   padding: 1em;
   box-shadow: 5px 10px #FF6B6B;
+}
+
+.button {
+  grid-column: 7;
+  grid-row: 4;
+  background-color: red;
+  border-radius: 12px;
+  text-align: center;
 }
