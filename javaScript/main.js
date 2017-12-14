@@ -1,14 +1,11 @@
 $(document).ready(function () {
   console.log("The DOM is ready")
 
-//learn how to edit prompt in csss
-//alert is tackky no need, will return later
+  //learn how to edit prompt in csss
+  //alert is tackky no need, will return later
   // alert("Welcome to GA Jeopardy")
 
   let newScore = 0
-
- 
-
   $("div.button1").click(function () {
     let answer = prompt("For $100: 2 * 25 ?")
     if (answer === '50') {
@@ -113,13 +110,12 @@ $(document).ready(function () {
     $("div.button8").unbind("click");
   })
 
-  $('.button').click(function() {
+  $('.button').click(function () {
     location.reload();
-});
+  });
 
   const winner = () => {
-    if (newScore == 2200) 
-    {}
+    if (newScore == 2200) { }
 
     alert("congrats")
   }

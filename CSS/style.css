@@ -5,6 +5,8 @@ body {
   grid-template-columns: repeat(20, 5%);
   grid-template-rows: repeat(20, 5%);
   background-color: #292F36;
+  /* background-image: url(/Users/Jeanlikedenim/GeneralAssembly/Project-1/Images/background.jpg); */
+
 }
 
 .grid {
