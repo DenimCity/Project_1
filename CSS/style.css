@@ -155,7 +155,7 @@ a {
   font-weight: bold;
 }
 
-.button p:hover {
+p:hover {
   background: #292F36;
   padding: 1em;
   cursor: pointer;
@@ -172,4 +172,10 @@ a {
   border-radius: 20px;
   color: #4ECDC4;
   text-align: center;
+}
+.button:hover {
+  background: #FFE66D;
+  padding: 1em;
+  cursor: pointer;
+  border-radius: 10px;
 }

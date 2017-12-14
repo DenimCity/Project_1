@@ -2,7 +2,8 @@ $(document).ready(function () {
   console.log("The DOM is ready")
 
 //learn how to edit prompt in csss
-  alert("Welcome to GA Jeopardy")
+//alert is tackky no need, will return later
+  // alert("Welcome to GA Jeopardy")
 
   let newScore = 0
 
