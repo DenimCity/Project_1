@@ -28,14 +28,28 @@ Wirefames or Mockups
 -
 Link https://www.figma.com/file/f6hFhrx9jofwWUdSkiJJfhSD/Untitled
 
+![Screen Shot 2017-12-14 at 2.37.25 PM.png]()
+
 List of technologies, libraries, and/or frameworks used in the project,
 -
-CodePen, Figma, VSCO eidtor, W3schools, Stackoverflow, jQuery, CSS GRID
+CodePen, 
+Figma
+VSCO eidtor,
+Online Resources
+- 
+Youtube,
+Google,
+W3schools, 
+Stackoverflow,
+jQuery Docs
 
+Display Control
+-
+CSS Grid
 Version 2 ideations:
 -
-Mobile device adaptable
-User will be presented multiple choice options.
-Display the users highest scores. Toggle between categories. Stock ticker across header.
+Mobile device adaptable,
+User will be presented multiple choice options,
+Display the users highest scores, Toggle between categories, Stock ticker across header.
 
 
