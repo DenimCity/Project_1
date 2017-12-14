@@ -99,8 +99,8 @@ nav {
 .score {
  background-color: #FF6B6B;
   padding:1rem;
-  width: 45px;
-  height: 15px;
+  width: 84px;
+  height: 20px;
   grid-column: 18/19;
   grid-row: 4/8;
   border-radius:20px;
