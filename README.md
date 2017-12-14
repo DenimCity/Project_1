@@ -29,7 +29,7 @@ Link https://www.figma.com/file/f6hFhrx9jofwWUdSkiJJfhSD/Untitled
 
 List of technologies, libraries, and/or frameworks used in the project,
 -
-CodePen, Figma, VSCO eidtor, W3schools, Stackoverflow
+CodePen, Figma, VSCO eidtor, W3schools, Stackoverflow, jQuery Doc.
 
 Version 2 ideations:
 -
