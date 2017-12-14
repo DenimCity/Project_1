@@ -27,7 +27,7 @@ link: https://trello.com/b/8FRno5Kc/untitled-board
 Wirefames or Mockups 
 -
 Link https://www.figma.com/file/f6hFhrx9jofwWUdSkiJJfhSD/Untitled
-
+[Imgur](https://i.imgur.com/GIAfciz.png)
 List of technologies, libraries, and/or frameworks used in the project,
 -
 CodePen, 
