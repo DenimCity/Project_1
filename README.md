@@ -16,7 +16,8 @@ This is a game replicating the real live game of Jeopardy. Jeopardy is an Americ
 
 A Link to the Deployed App
 -
-link: https://vigilant-mccarthy-4a61b8.bitballoon.com/
+View from Desktop
+link: https://www.bitballoon.com/sites/denimcityproject1
 
 
 Trello Board
@@ -33,6 +34,7 @@ CodePen, Figma, VSCO eidtor, W3schools, Stackoverflow, jQuery Doc.
 
 Version 2 ideations:
 -
+Mobile device adaptable
 User will be presented multiple choice options.
 Display the users highest scores. Toggle between categories. Stock ticker across header.
 

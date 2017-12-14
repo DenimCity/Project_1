@@ -4,8 +4,18 @@ $(document).ready(function () {
   //learn how to edit prompt in csss
   //alert is tackky no need, will return later
   // alert("Welcome to GA Jeopardy")
+//alerting winner funciton
 
+
+//score keeper
   let newScore = 0
+  ///Button triggers
+  const winner =()=> {
+    if (newScore >= 2000){
+      alert("Youve Won A Free Meal")
+    }
+    winner("newScore");
+  }
   $("div.button1").click(function () {
     let answer = prompt("For $100: 2 * 25 ?")
     if (answer === '50') {
@@ -108,23 +118,19 @@ $(document).ready(function () {
     }
     $(".score").html(newScore);
     $("div.button8").unbind("click");
-  })
-
-  $('.button').click(function () {
-    location.reload();
-  });
-//alerting winner funciton
-  const winner = () => {
-    if (newSocre ==200){
-      alert("WINNER CHICKEN DINNER")
-    } else {
-      alert('You got this, Let try again')
-    }
-  }
-    
+  })  
 
 })
 
 
 
+
+function newFunction() {
+  if (newSocre == 200) {
+    alert("WINNER CHICKEN DINNER");
+  }
+  else {
+    alert('You got this, Let try again');
+  }
+}
 
