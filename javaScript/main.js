@@ -3,14 +3,16 @@ $(document).ready(function () {
 
 //score keeper
   let newScore = 0
-  
+  $('.realButton').click(function() {
+    location.reload();
+});
 
  //game winnder alert 
-  const complete =()=> {
-    if (end >= 1){
-      alert("Youve completed the board")
-    }
-  }
+  // const complete =()=> {
+  //   if (end >= 1){
+  //     alert("Youve completed the board")
+  //   }
+  // }
   ///Button triggers
   $("div.button1").click(function () {
     let answer = prompt("For $100: 2 * 25 ?")
@@ -117,18 +119,10 @@ $(document).ready(function () {
     $(".score").html(newScore);
     $("div.button8").unbind("click");
   })  
-
 })
 
 
 
 
-function newFunction() {
-  if (newSocre == 200) {
-    alert("WINNER CHICKEN DINNER");
-  }
-  else {
-    alert('You got this, Let try again');
-  }
-}
+
 
