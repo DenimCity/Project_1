@@ -20,7 +20,7 @@ $(document).ready(function () {
       alert("Sorry, Next Question")
       newScore -= 100
     }
-    $(".score").html(newScore);
+    $(".points").html(newScore);
     $("div.button1").unbind("click")
   });
 
