@@ -5,8 +5,24 @@ body {
   grid-template-columns: repeat(20, 5%);
   grid-template-rows: repeat(20, 5%);
   background-color: rgb(32, 37, 43);
-  /* background-image: url(/Users/Jeanlikedenim/GeneralAssembly/Project-1/Images/bg7.jpeg); */
+/* insert background img here */
+}
+header {
+  display: grid;
+  grid-column: 10/16;
+  grid-row: 2/4;
+  background-color:#FFE66D;
+  border-radius: 25px;
+}
+head {
+  grid-column: 9/19;
+  grid-row: 4/6;
+  border-radius: 25px;
+}
 
+main {
+  grid-column: 6/20;
+  grid-row: 7/21;
 }
 .grid {
   display: grid;
@@ -19,20 +35,6 @@ body {
   background: #4ECDC4;
   padding: 1em;
   box-shadow: 5px 10px #FF6B6B;
-}
-
-h3 {
-  font-family: sans-serif;
-  text-justify: center;
-  color: gold;
-  font-size: 35px;
-}
-aside>nav {
-  grid-column-gap: 1em;
-}
-main {
-  grid-column: 6/20;
-  grid-row: 7/21;
 }
 h2 {
   text-align: center;
@@ -49,24 +51,14 @@ h1 {
   background-color: #292F36;
   padding-top: 5px;
 }
-header {
-  display: grid;
-  grid-column: 10/16;
-  grid-row: 2/4;
-  background-color:#FFE66D;
-  border-radius: 25px;
+h3 {
+  font-family: sans-serif;
+  text-justify: center;
+  color: gold;
+  font-size: 35px;
 }
-head {
-  grid-column: 9/19;
-  grid-row: 4/6;
-  border-radius: 25px;
-}
-p {
-text-align: center;
-font-size: x-large;
-color: #FFE66D;
-font-weight: bolder;
-  }
+
+
 nav {
   display: flex;
   grid-column: 10/16;
@@ -108,6 +100,9 @@ aside {
   background-color: #4ECDC4;
   border-radius: 12px;
 }
+aside>nav {
+  grid-column-gap: 1em;
+}
 aside > div {
   background-color: yellow;
   border-radius:49px;
@@ -143,6 +138,12 @@ a {
   font-size: 17px;
   font-weight: bold;
 }
+p {
+  text-align: center;
+  font-size: x-large;
+  color: #FFE66D;
+  font-weight: bolder;
+    }
 p:hover {
   background: #292F36;
   padding: 1em;

@@ -1,6 +1,6 @@
 # Project-1
-
-The game of 'Jeopardy'
+The Dirty Bird Eatery 
+'Jeopardy' themed
 
 created by Jean Altidor
 
@@ -29,9 +29,10 @@ Link https://www.figma.com/file/f6hFhrx9jofwWUdSkiJJfhSD/Untitled
 
 List of technologies, libraries, and/or frameworks used in the project,
 -
-CodePen, Figma, VSCO eidtor, 
+CodePen, Figma, VSCO eidtor, W3schools, Stackoverflow
 
-What you would like to add in version 2
+Version 2 ideations:
 -
+User will be presented multiple choice options.
 Display the users highest scores. Toggle between categories. Stock ticker across header.
 
