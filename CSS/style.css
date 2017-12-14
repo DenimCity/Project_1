@@ -181,3 +181,10 @@ audio:hover, audio:focus, audio:active
   -moz-transform: scale(1.05);
   transform: scale(1.05);
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [header] {
+      width: 100%;
+  }
+}

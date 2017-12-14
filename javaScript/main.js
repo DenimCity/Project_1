@@ -1,21 +1,16 @@
 $(document).ready(function () {
   console.log("The DOM is ready")
 
-  //learn how to edit prompt in csss
-  //alert is tackky no need, will return later
-  // alert("Welcome to GA Jeopardy")
-//alerting winner funciton
-
-
 //score keeper
   let newScore = 0
-  ///Button triggers
+  
   const winner =()=> {
     if (newScore >= 2000){
       alert("Youve Won A Free Meal")
     }
     winner("newScore");
   }
+  ///Button triggers
   $("div.button1").click(function () {
     let answer = prompt("For $100: 2 * 25 ?")
     if (answer === '50') {
