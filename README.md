@@ -28,8 +28,6 @@ Wirefames or Mockups
 -
 Link https://www.figma.com/file/f6hFhrx9jofwWUdSkiJJfhSD/Untitled
 
-![Screen Shot 2017-12-14 at 2.37.25 PM.png]()
-
 List of technologies, libraries, and/or frameworks used in the project,
 -
 CodePen, 
