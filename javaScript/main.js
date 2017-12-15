@@ -3,6 +3,7 @@ $(document).ready(function () {
 
 //score keeper
   let newScore = 0
+  ///reset button
   $('.realButton').click(function() {
     location.reload();
 });
@@ -13,6 +14,7 @@ $(document).ready(function () {
   //     alert("Youve completed the board")
   //   }
   // }
+  
   ///Button triggers
   $("div.button1").click(function () {
     let answer = prompt("For $100: 2 * 25 ?")
