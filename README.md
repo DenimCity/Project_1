@@ -5,7 +5,7 @@ The Dirty Bird Eatery
 created by Jean Altidor
 
 GWI 13'
-contact: altidorjean@yahoo.com
+contact: jeanwaltidor@gmail.com
 
 -
 
