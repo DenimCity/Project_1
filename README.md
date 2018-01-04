@@ -49,7 +49,7 @@ Display Control
 CSS Grid
 Version 2 ideations:
 -
-Mobile device adaptable,
+
 User will be presented multiple choice options,
 Display the users highest scores, Toggle between categories, Stock ticker across header.
 
