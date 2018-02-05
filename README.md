@@ -32,6 +32,9 @@ Wirefames or Mockups
 View Wireframes:
 Click here to: [View](https://www.figma.com/file/f6hFhrx9jofwWUdSkiJJfhSD/Untitled)
 
+Version1 ![]()
+version 2 ![]()
+
 
 List of technologies, libraries, and/or frameworks used in the project,
 -
