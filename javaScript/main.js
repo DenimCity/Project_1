@@ -3,6 +3,7 @@ $(document).ready(function () {
 
 //score keeper
   let newScore = 0
+
   ///reset button
   $('.resetContainer').click(function() {
     location.reload();
