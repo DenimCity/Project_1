@@ -32,8 +32,8 @@ Wirefames or Mockups
 View Wireframes:
 Click here to: [View](https://www.figma.com/file/f6hFhrx9jofwWUdSkiJJfhSD/Untitled)
 
-Version1 ![]()
-version 2 ![]()
+Version1 ![V1](https://github.com/DenimCity/Project_1/blob/version2/Images/Version%201.png)
+version 2 ![V2](https://github.com/DenimCity/Project_1/blob/version2/Images/Version%202.png)
 
 
 List of technologies, libraries, and/or frameworks used in the project,
