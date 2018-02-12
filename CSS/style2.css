@@ -1,0 +1,164 @@
+*{
+  border: solid black 1px;
+}
+
+body {
+  display:flex;
+  background-color: white;
+flex-wrap: wrap-reverse;
+}
+.sideBarContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 11px;
+  border: 1px solid;
+ 
+  justify-content: space-around;
+}
+.sidebar, .main {
+  height:95vh;
+}
+
+.sideBar {
+  background-color: #4ECDC4;
+  width: 27vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 21px;
+  height: 86%;
+
+}
+
+
+li {
+  list-style-type: none;
+  padding: 21px;
+  background-color: #FFE66D;
+  border-radius: 17px;
+  margin-bottom: 5px;
+  flex-flow: row wrap;
+}
+
+a {
+  text-decoration: none;
+  color:#FF6B6B;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.main {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 69vw;
+}
+
+.topOfMain{
+  display:flex;
+  flex-direction: row;
+
+height: 50%;
+flex-wrap: wrap;
+
+}
+
+.bottomOfMain{
+  display:flex;
+background-color: yellow;
+height: 50%;
+
+}
+
+
+.resetButtonContainer{
+background-color: blue;
+width: 122px;
+display: flex;
+justify-content: center;
+align-items: center
+
+
+}
+
+.resetButton {
+  background-color: red;
+  border-radius: 31px;
+  width: 79px;
+  height: 56px;
+}
+
+
+
+.titleContainer{
+  background-color: #292F36;
+  width: 95vw;
+  display: flex;
+  height: 16vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleHolder {
+  background-color: #B9A95E;
+  border-radius: 20px;
+  width: 242px;
+  height: 124px;
+}
+.descriptionHolder {
+  background-color: #292F36;
+  width: 95vw;
+  display: flex;
+  height: 16vh;
+  justify-content: center;
+  align-items: center;
+
+}
+.description {
+  background-color: #B9A95E;
+  border-radius: 20px;
+  width: 242px;
+  height: 124px;
+}
+/* display: flex;
+  
+  text-align: center;
+  background: #FFE66D; 
+  border-radius: 12px;
+  color: #292F36;
+  padding: 10px;
+  border-top-width: 0px; */
+
+
+
+.scoreBoradContainer{
+  background-color: green;
+  display:flex;
+  width: 90px;
+  align-items: center;
+  justify-content: center;
+}
+
+.scoreBoard{
+  background-color: red;
+  border-radius: 31px;
+  width: 79px;
+  height: 56px;
+}
+
+h1 {
+  text-align: center;
+  background-color: #292F36;
+  color: red;
+}
+
+p {
+  text-align: center;
+}
+
+
+
+@media screen {
+  
+}
