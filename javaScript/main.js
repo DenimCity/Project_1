@@ -9,10 +9,10 @@ $(document).ready(function () {
     location.reload();
 });
 
- //game winnder alert 
+ //game winner alert 
   // const complete =()=> {
-  //   if (end >= 1){
-  //     alert("Youve completed the board")
+  //   if (newScore >= 2000){
+  //     alert("You've completed the board")
   //   }
   // }
   
