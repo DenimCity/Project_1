@@ -55,11 +55,9 @@ CSS Grid & FlexBox
 
 Version 3 ideations:
 -
-<<<<<<< HEAD
+
 =======
 
->>>>>>> 6cec91c9311b2af8c5504c5fe2f69f3b66745c84
-User will be presented multiple choice options,
-Display the users highest scores, Toggle between categories, Stock ticker across header.
+
 
 
