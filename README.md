@@ -53,10 +53,7 @@ Display Control
 -
 CSS Grid & FlexBox
 
-Version 3 ideations:
--
 
-=======
 
 
 
